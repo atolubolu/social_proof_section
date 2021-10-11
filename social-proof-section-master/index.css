@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+body{
+    font-family: 'Spartan', sans-serif;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/bg-pattern-bottom-desktop.svg), url(images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+}
+/* background-size: contain; */
+.container{
+    padding: 125px;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* #top-bg{
+    position: absolute;
+    background-image: url(images/bg-pattern-top-desktop.svg);
+    border-style: contain;
+    background-repeat: no-repeat;
+    height: 978px;
+    width: 968px;
+    top: -528px;
+    left: -284px;
+} */
+.box1{
+    width: 510px;
+    color: hsl(300, 43%, 22%);
+}
+.box1 h1{
+    font-size: 50px;
+    line-height: 55px;
+    margin-bottom: 25px;
+    font-size: 45px;
+    width: 430px;
+}
+.box1 p{
+    color: hsla(303, 10%, 53%, 0.8);
+    font-weight: 400;
+    font-size: 13px;
+    width: 420px;
+    line-height: 20px;
+}
+.testimonial{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    width: 360px;
+    padding: 25px;
+    color: white;
+    margin: 10px;
+}
+.header{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    border-radius: 50%;
+}
+.id{
+    margin: 10px;
+}
+.status{
+    color: hsl(333, 80%, 67%);
+}
+.txt{
+    padding-top: 17px;
+}
+.rating{
+    /* justify-content: end; */
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-top: 35px;
+    /* align-self: flex-end; */
+}
+.criteria{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: hsl(300, 24%, 96%);
+    margin: 5px;
+    padding: 20px;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+
+}
+.criteria p{
+    margin: 0px 5px;
+}
+.stars{
+    height: 15px;
+    width: 15px;
+    margin: 0px 5px;
+}
+#irene{
+    margin-top: 25px;
+}
+#anne{
+    margin-top: 45px;
+}
+#guru{
+    margin-left: 55px;
+}
+#techR{
+    margin-left: 110px;
+}
